@@ -31,7 +31,7 @@ while not int(target) in [1,2]:
 		print("File successfully disguised as "+filename+"."+d_extension+"!")
 	if target == "2":
 		print("2")
-		X = "‮"
+		X = u"\u202E"
 		o_extension = o_extension[::-1]
 		d_extension = d_extension[::-1]
 		os.rename(filename+"."+o_extension,filename+X+d_extension+"."+o_extension)
