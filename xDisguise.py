@@ -34,4 +34,4 @@ while not int(target) in [1,2]:
 		X = "‮"
 		o_extension = o_extension[::-1]
 		d_extension = d_extension[::-1]
-		os.rename(filename,filename+X+d_extension+"."+o_extension)
+		os.rename(filename+"."+o_extension,filename+X+d_extension+"."+o_extension)
